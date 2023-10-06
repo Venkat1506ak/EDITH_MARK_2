@@ -18,6 +18,7 @@ public class Mitsogo {
                 for(int k=0;k<s.length();k++){
                     for(int l=0;l<a.length();l++){
                         if(s.charAt(k)==a.charAt(l)){
+                            k++;
                             val++;
                         }
                     }
